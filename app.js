@@ -4,7 +4,7 @@ const tabSwitch2 = document.querySelector(".tab-switch2");
 const tabGroup = document.querySelector(".tab-group");
 
 tabSwitch2.addEventListener("click", () => {
-  image.src = "/assets/tab2.png";
+  image.src = "./assets/tab2.png";
   tabSwitch2.classList.add("active-tab");
   tabSwitch.classList.remove("active-tab");
   tabGroup.classList.add("tab-group-swap");
@@ -12,7 +12,7 @@ tabSwitch2.addEventListener("click", () => {
 });
 
 tabSwitch.addEventListener("click", () => {
-  image.src = "/assets/tab1.png";
+  image.src = "./assets/tab1.png";
   tabSwitch2.classList.remove("active-tab");
   tabSwitch.classList.add("active-tab");
   tabGroup.classList.remove("tab-group-swap");
