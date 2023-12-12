@@ -1,0 +1,2 @@
+open the folder in vs code and run the live server.
+adjust the source of images if needed.
